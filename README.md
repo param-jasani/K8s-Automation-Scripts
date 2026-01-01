@@ -1,6 +1,6 @@
 ### The following outlines the workflow that was carried out to setup k8s cluster for training a model required for the project.
 
->[!chip] Node Specifications
+> Node Specifications
 > - `Processor` - i5 12<sup>th</sup> Gen (12500)
 > - `RAM` - 8 GB
 > - `GPU` - T400  (4 GB VRAM)
@@ -11,7 +11,7 @@
  - The project was kicked off by installing `ubuntu-22.04.5-live-server-amd64` on 18 nodes.
  - Following is the specification decided for partitioning the storage volume of `1TB HDD`  
 
->[!layers] Partition Table
+> Partition Table
 > - `/` - 50 GB
 > - `/home` - 50 GB
 > - `swap` - 16 GB
